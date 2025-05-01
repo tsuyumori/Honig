@@ -1,0 +1,159 @@
+[10:13:28] [main/INFO] (Launcher) ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, 21.1.145, --assetIndex, 1.21.1-17, --assetsDir, /Users/cph101/.gradle/caches/fabric-loom/assets, --gameDir, ., --fml.neoForgeVersion, 21.1.145, --fml.fmlVersion, 4.0.38, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430]
+[10:13:28] [main/INFO] (Launcher) JVM identified as JetBrains s.r.o. OpenJDK 64-Bit Server VM 21.0.6+9-b895.109
+[10:13:28] [main/INFO] (Launcher) ModLauncher 11.0.4+main.d2e20e43 starting: java version 21.0.6 by JetBrains s.r.o.; OS Mac OS X arch aarch64 version 15.5
+[10:13:29] [main/INFO] (ImmediateWindowHandler) Loading ImmediateWindowProvider fmlearlywindow
+[10:13:29] [main/INFO] (EARLYDISPLAY) Trying GL version 4.6
+[10:13:29] [main/INFO] (EARLYDISPLAY) Trying GL version 4.5
+[10:13:29] [main/INFO] (EARLYDISPLAY) Trying GL version 4.4
+[10:13:29] [main/INFO] (EARLYDISPLAY) Trying GL version 4.3
+[10:13:29] [main/INFO] (EARLYDISPLAY) Trying GL version 4.2
+[10:13:29] [main/INFO] (EARLYDISPLAY) Trying GL version 4.1
+[10:13:29] [main/INFO] (EARLYDISPLAY) Requested GL version 4.1 got version 4.1
+[10:13:29] [main/INFO] (mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/Users/cph101/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23112!/ Service=ModLauncher Env=CLIENT
+[10:13:29] [main/INFO] (ModDiscoverer) Found mod file "neoforge-21.1.145-minecraft-merged-bddd6a3dda-1.21.1-loom.mappings.1_21_1.layered+hash.40359-v2-neoforge-21.1.145.jar" [locator: neoforge devenv provider ([/Users/cph101/Desktop/Developer/Minecraft/Honig/.gradle/loom-cache/minecraftMaven/net/minecraft/neoforge-21.1.145-minecraft-merged-bddd6a3dda/1.21.1-loom.mappings.1_21_1.layered+hash.40359-v2-neoforge-21.1.145/neoforge-21.1.145-minecraft-merged-bddd6a3dda-1.21.1-loom.mappings.1_21_1.layered+hash.40359-v2-neoforge-21.1.145.jar])]
+[10:13:29] [main/INFO] (ModDiscoverer) Found mod file "neoforge-21.1.145-minecraft-merged-bddd6a3dda-1.21.1-loom.mappings.1_21_1.layered+hash.40359-v2-neoforge-21.1.145.jar" [locator: neoforge devenv provider ([/Users/cph101/Desktop/Developer/Minecraft/Honig/.gradle/loom-cache/minecraftMaven/net/minecraft/neoforge-21.1.145-minecraft-merged-bddd6a3dda/1.21.1-loom.mappings.1_21_1.layered+hash.40359-v2-neoforge-21.1.145/neoforge-21.1.145-minecraft-merged-bddd6a3dda-1.21.1-loom.mappings.1_21_1.layered+hash.40359-v2-neoforge-21.1.145.jar])]
+[10:13:29] [main/INFO] (ModDiscoverer) Found mod file "iris-neoforge-1.8.8+mc1.21.1.jar" [locator: {mods folder locator at /Users/cph101/Desktop/Developer/Minecraft/Honig/neoforge/run/mods}, reader: mod manifest]
+[10:13:29] [main/INFO] (ModDiscoverer) Found mod file "sodium-neoforge-0.6.13+mc1.21.1.jar" [locator: {mods folder locator at /Users/cph101/Desktop/Developer/Minecraft/Honig/neoforge/run/mods}, reader: mod manifest]
+[10:13:29] [main/INFO] (ModDiscoverer) Found mod file "main" [locator: userdev mods and services, reader: mod manifest]
+[10:13:29] [main/INFO] (ModDiscoverer) Found mod file "neoforge-21.1.145-minecraft-merged-bddd6a3dda-1.21.1-loom.mappings.1_21_1.layered+hash.40359-v2-neoforge-21.1.145.jar" [locator: userdev mods and services, reader: mod manifest]
+[10:13:29] [main/INFO] (ModDiscoverer) Found mod file "architectury-neoforge-13.0.8.jar" [locator: userdev mods and services, reader: mod manifest]
+[10:13:29] [main/INFO] (ModDiscoverer) Found mod file "7497938456271733273.jar" [locator: userdev mods and services, reader: mod manifest]
+[10:13:29] [main/INFO] (ModDiscoverer) Found gamelibrary file "mixinextras-neoforge-0.4.1.jar" [locator: userdev mods and services, reader: mod manifest]
+[10:13:29] [main/INFO] (ModDiscoverer) Found gamelibrary file "mixinsquared-forge-0.3.2-beta.3.jar" [locator: userdev mods and services, reader: mod manifest]
+[10:13:29] [pool-5-thread-1/INFO] (EARLYDISPLAY) GL info: Apple M4 Pro GL version 4.1 Metal - 89.4, Apple
+[10:13:29] [main/WARN] (JarSelector) Attempted to select a dependency jar for JarJar which was passed in as source: library:mixinextras.neoforge. Using Mod File: /Users/cph101/.gradle/caches/modules-2/files-2.1/io.github.llamalad7/mixinextras-neoforge/0.4.1/eff97772ecd0dcf8e52cdbafd3b3ccec425f8314/mixinextras-neoforge-0.4.1.jar
+[10:13:29] [main/INFO] (JarInJarDependencyLocator) Found 9 dependencies adding them to mods collection
+[10:13:29] [main/INFO] (ModDiscoverer) Found mod file "fabric-rendering-data-attachment-v1-0.3.48+73761d2e19.jar" [parent: iris-neoforge-1.8.8+mc1.21.1.jar, locator: jarinjar, reader: mod manifest]
+[10:13:29] [main/INFO] (ModDiscoverer) Found library file "jcpp-1.4.14.jar" [parent: iris-neoforge-1.8.8+mc1.21.1.jar, locator: jarinjar]
+[10:13:29] [main/INFO] (ModDiscoverer) Found mod file "fabric-renderer-api-v1-3.4.0+acb05a3919.jar" [parent: iris-neoforge-1.8.8+mc1.21.1.jar, locator: jarinjar, reader: mod manifest]
+[10:13:29] [main/INFO] (ModDiscoverer) Found mod file "fabric-api-base-0.4.42+d1308ded19.jar" [parent: iris-neoforge-1.8.8+mc1.21.1.jar, locator: jarinjar, reader: mod manifest]
+[10:13:29] [main/INFO] (ModDiscoverer) Found library file "net.caffeinemc.sodium-neoforge-0.6.13+mc1.21.1-service.jar" [parent: sodium-neoforge-0.6.13+mc1.21.1.jar, locator: jarinjar, reader: mod manifest]
+[10:13:29] [main/INFO] (ModDiscoverer) Found library file "MixinSquared-0.3.2-beta.3.jar" [parent: mixinsquared-forge-0.3.2-beta.3.jar, locator: jarinjar]
+[10:13:29] [main/INFO] (ModDiscoverer) Found library file "neoforge-coremods-21.1.145.jar" [parent: neoforge-21.1.145-minecraft-merged-bddd6a3dda-1.21.1-loom.mappings.1_21_1.layered+hash.40359-v2-neoforge-21.1.145.jar, locator: jarinjar, reader: mod manifest]
+[10:13:29] [main/INFO] (ModDiscoverer) Found mod file "fabric-block-view-api-v2-1.0.10+9afaaf8c19.jar" [parent: iris-neoforge-1.8.8+mc1.21.1.jar, locator: jarinjar, reader: mod manifest]
+[10:13:29] [main/INFO] (ModDiscoverer) Found library file "glsl-transformer-2.0.1.jar" [parent: iris-neoforge-1.8.8+mc1.21.1.jar, locator: jarinjar]
+[10:13:29] [main/INFO] (ModDiscoverer) 
+     Mod List:
+		Name Version (Mod Id)
+
+		Architectury 13.0.8 (architectury)
+		Forgified Fabric API Base 0.4.42+d1308ded19 (fabric_api_base)
+		Forgified Fabric BlockView API (v2) 1.0.10+9afaaf8c19 (fabric_block_view_api_v2)
+		Forgified Fabric Renderer API (v1) 3.4.0+acb05a3919 (fabric_renderer_api_v1)
+		Forgified Fabric Rendering Data Attachment (v1) 0.3.48+73761d2e19 (fabric_rendering_data_attachment_v1)
+		generated_eb39645 1 (generated_eb39645)
+		Honig 1.0.0 (honig)
+		Iris 1.8.8+mc1.21.1 (iris)
+		Minecraft 1.21.1 (minecraft)
+		NeoForge 21.1.145 (neoforge)
+		Sodium 0.6.13+mc1.21.1 (sodium)
+[10:13:29] [main/INFO] (mixin) Compatibility level set to JAVA_17
+[10:13:29] [main/INFO] (mixin) Compatibility level set to JAVA_21
+[10:13:29] [main/INFO] (LaunchServiceHandler) Launching target 'forgeclientuserdev' with arguments [--version, 21.1.145, --gameDir, ., --assetsDir, /Users/cph101/.gradle/caches/fabric-loom/assets, --assetIndex, 1.21.1-17]
+[10:13:29] [main/INFO] (unprotect) Found 8254 Minecraft classes
+[10:13:29] [main/INFO] (Sodium) Loaded configuration file for Sodium: 43 options available, 1 override(s) found
+[10:13:29] [main/WARN] (mixin) Reference map 'iris.refmap.json' for mixins.iris.json could not be read. If this is a development environment you can ignore this message
+[10:13:29] [main/WARN] (mixin) Reference map 'iris.refmap.json' for mixins.iris.fantastic.json could not be read. If this is a development environment you can ignore this message
+[10:13:29] [main/WARN] (mixin) Reference map 'iris.refmap.json' for mixins.iris.vertexformat.json could not be read. If this is a development environment you can ignore this message
+[10:13:29] [main/WARN] (mixin) Reference map 'iris.refmap.json' for iris-batched-entity-rendering.mixins.json could not be read. If this is a development environment you can ignore this message
+[10:13:29] [main/WARN] (mixin) Reference map 'iris.refmap.json' for mixins.iris.compat.sodium.json could not be read. If this is a development environment you can ignore this message
+[10:13:29] [main/WARN] (Sodium) Force-disabling mixin 'features.render.world.sky.FogRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[10:13:29] [main/WARN] (Sodium) Force-disabling mixin 'features.render.world.sky.ClientLevelMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[10:13:29] [main/WARN] (Sodium) Force-disabling mixin 'features.render.world.sky.LevelRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[10:13:30] [main/WARN] (mixin) Error loading class: com/portingdeadmods/cable_facades/events/GameClientEvents$2 (java.lang.ClassNotFoundException: com.portingdeadmods.cable_facades.events.GameClientEvents$2)
+[10:13:30] [main/WARN] (mixin) Error loading class: com/direwolf20/justdirethings/client/renderers/OurRenderTypes (java.lang.ClassNotFoundException: com.direwolf20.justdirethings.client.renderers.OurRenderTypes)
+[10:13:30] [main/WARN] (mixin) Error loading class: mekanism/client/render/entity/RenderFlame (java.lang.ClassNotFoundException: mekanism.client.render.entity.RenderFlame)
+[10:13:30] [main/WARN] (mixin) Error loading class: mekanism/client/render/armor/MekaSuitArmor (java.lang.ClassNotFoundException: mekanism.client.render.armor.MekaSuitArmor)
+[10:13:30] [main/WARN] (mixin) Error loading class: mekanism/client/render/lib/effect/BillboardingEffectRenderer (java.lang.ClassNotFoundException: mekanism.client.render.lib.effect.BillboardingEffectRenderer)
+[10:13:30] [main/WARN] (mixin) Error loading class: blusunrize/immersiveengineering/client/utils/IEGLShaders (java.lang.ClassNotFoundException: blusunrize.immersiveengineering.client.utils.IEGLShaders)
+[10:13:30] [main/INFO] (MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[01May2025 10:13:30.748] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 229 Datafixer optimizations took 80 milliseconds
+[01May2025 10:13:36.210] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01May2025 10:13:36.211] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01May2025 10:13:36.212] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[01May2025 10:13:36.212] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[01May2025 10:13:36.213] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01May2025 10:13:36.291] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/Users/cph101/Desktop/Developer/Minecraft/Honig/.gradle/loom-cache/minecraftMaven/net/minecraft/neoforge-21.1.145-minecraft-merged-bddd6a3dda/1.21.1-loom.mappings.1_21_1.layered+hash.40359-v2-neoforge-21.1.145/neoforge-21.1.145-minecraft-merged-bddd6a3dda-1.21.1-loom.mappings.1_21_1.layered+hash.40359-v2-neoforge-21.1.145.jar%23188!/assets/.mcassetsroot' uses unexpected schema
+[01May2025 10:13:36.291] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/Users/cph101/Desktop/Developer/Minecraft/Honig/.gradle/loom-cache/minecraftMaven/net/minecraft/neoforge-21.1.145-minecraft-merged-bddd6a3dda/1.21.1-loom.mappings.1_21_1.layered+hash.40359-v2-neoforge-21.1.145/neoforge-21.1.145-minecraft-merged-bddd6a3dda-1.21.1-loom.mappings.1_21_1.layered+hash.40359-v2-neoforge-21.1.145.jar%23188!/data/.mcassetsroot' uses unexpected schema
+[01May2025 10:13:36.301] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[01May2025 10:13:36.305] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[01May2025 10:13:36.345] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
+[01May2025 10:13:36.378] [Render thread/INFO] [com.mojang.blaze3d.platform.Window/]: OpenGL Vendor: Apple
+[01May2025 10:13:36.379] [Render thread/INFO] [com.mojang.blaze3d.platform.Window/]: OpenGL Renderer: Apple M4 Pro
+[01May2025 10:13:36.379] [Render thread/INFO] [com.mojang.blaze3d.platform.Window/]: OpenGL Version: 4.1 Metal - 89.4
+[01May2025 10:13:38.670] [Render thread/INFO] [Iris/]: Debug functionality is disabled.
+[01May2025 10:13:38.671] [Render thread/INFO] [Iris/]: DSA support not detected.
+[01May2025 10:13:38.689] [Render thread/INFO] [Iris/]: Shaders are disabled because enableShaders is set to false in iris.properties
+[01May2025 10:13:38.734] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.145, for MC 1.21.1
+[01May2025 10:13:38.936] [modloading-sync-worker/ERROR] [net.minecraft.Util/]: Entity honig:sphere_test has no attributes
+[01May2025 10:13:38.936] [modloading-sync-worker/WARN] [net.minecraft.Util/]: Did you remember to set a breakpoint here?
+[01May2025 10:13:39.182] [Render thread/INFO] [Iris/]: Hardware information:
+[01May2025 10:13:39.182] [Render thread/INFO] [Iris/]: CPU: 14x Apple M4 Pro
+[01May2025 10:13:39.182] [Render thread/INFO] [Iris/]: GPU: Apple M4 Pro (Supports OpenGL 4.1 Metal - 89.4)
+[01May2025 10:13:39.182] [Render thread/INFO] [Iris/]: OS: Mac OS X (15.5)
+[01May2025 10:13:39.253] [Render thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: []
+[01May2025 10:13:39.423] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/sodium, mod/generated_eb39645, mod/fabric_rendering_data_attachment_v1, mod/iris, mod/fabric_renderer_api_v1, mod/fabric_api_base, mod/honig, mod/architectury, mod/neoforge, mod/fabric_block_view_api_v2
+[01May2025 10:13:39.469] [Worker-Main-13/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.1.05.hex, loading
+[01May2025 10:13:39.521] [Worker-Main-10/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-15.1.05.hex, loading
+[01May2025 10:13:40.179] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[01May2025 10:13:40.180] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[01May2025 10:13:40.277] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device MacBook Pro Speakers
+[01May2025 10:13:40.281] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[01May2025 10:13:40.344] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[01May2025 10:13:40.355] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[01May2025 10:13:40.356] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[01May2025 10:13:40.356] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[01May2025 10:13:40.357] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[01May2025 10:13:40.359] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[01May2025 10:13:40.360] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[01May2025 10:13:40.360] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[01May2025 10:13:40.360] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[01May2025 10:13:40.400] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[01May2025 10:13:40.401] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[01May2025 10:13:40.401] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[01May2025 10:13:40.401] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[01May2025 10:13:40.402] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[01May2025 10:13:40.428] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[01May2025 10:13:40.477] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
+[01May2025 10:13:41.016] [Render thread/INFO] [Iris/]: Creating pipeline for dimension minecraft:overworld
+[01May2025 10:13:41.322] [ForkJoinPool.commonPool-worker-13/WARN] [Iris/]: [Iris Update Check] This version doesn't have an update index, skipping.
+[01May2025 10:13:44.024] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1290 recipes
+[01May2025 10:13:44.088] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1399 advancements
+[01May2025 10:13:44.325] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.1
+[01May2025 10:13:44.325] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[01May2025 10:13:45.032] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[01May2025 10:13:45.168] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01May2025 10:13:45.207] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 166 ms
+[01May2025 10:13:45.208] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[01May2025 10:13:45.256] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[01May2025 10:13:45.256] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[01May2025 10:13:45.436] [Render thread/ERROR] [net.minecraft.Util/]: Entity honig:sphere_test has no attributes
+[01May2025 10:13:45.436] [Render thread/WARN] [net.minecraft.Util/]: Did you remember to set a breakpoint here?
+[01May2025 10:13:45.575] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:8e72e90e] logged in with entity id 64 at (-31.95635722434053, 127.61663659674302, 1.5385960898320743)
+[01May2025 10:13:45.606] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[01May2025 10:13:45.608] [Render thread/INFO] [Iris/]: Reloading pipeline on dimension change: minecraft:overworld => minecraft:overworld
+[01May2025 10:13:45.608] [Render thread/INFO] [Iris/]: Destroying pipeline minecraft:overworld
+[01May2025 10:13:45.608] [Render thread/INFO] [Iris/]: Creating pipeline for dimension minecraft:overworld
+[01May2025 10:13:45.671] [Render thread/INFO] [ChunkBuilder/]: Started 8 worker threads
+[01May2025 10:13:45.710] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 2 advancements
+[01May2025 10:14:33.709] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[01May2025 10:14:33.713] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[01May2025 10:14:33.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[01May2025 10:14:33.723] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[01May2025 10:14:34.462] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[01May2025 10:14:34.463] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[01May2025 10:14:34.465] [Server thread/INFO] [net.minecraft.server.network.ServerCommonPacketListenerImpl/]: Stopping singleplayer server as player logged out
+[01May2025 10:14:34.510] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[01May2025 10:14:34.510] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[01May2025 10:14:34.510] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[01May2025 10:14:34.826] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[01May2025 10:14:34.903] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[01May2025 10:14:34.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[01May2025 10:14:34.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[01May2025 10:14:34.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01May2025 10:14:34.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01May2025 10:14:34.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[01May2025 10:14:35.020] [Render thread/INFO] [ChunkBuilder/]: Stopping worker threads
+[01May2025 10:14:35.026] [Render thread/ERROR] [net.minecraft.Util/]: Entity honig:sphere_test has no attributes
+[01May2025 10:14:35.027] [Render thread/WARN] [net.minecraft.Util/]: Did you remember to set a breakpoint here?
+[01May2025 10:14:35.415] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

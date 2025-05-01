@@ -1,0 +1,2 @@
+/summon honig:sphere_test
+/time set day

@@ -1,0 +1,130 @@
+---- Minecraft Crash Report ----
+// Don't be sad. I'll do better next time, I promise!
+
+Time: 2025-04-25 11:11:24
+Description: Mod loading failures have occurred; consult the issue messages for more details
+
+net.neoforged.neoforge.logging.CrashReportExtender$ModLoadingCrashException: Mod loading has failed
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[?:?] {}
+-- Mod loading issue for: honig --
+Details:
+	Caused by 0: java.lang.NoClassDefFoundError: net/irisshaders/iris/layer/BlockEntityRenderStateShard
+		at TRANSFORMER/generated_694b1e7@1/com.tsuyumori.honig.tests.HonigTestsClient.init(HonigTestsClient.java:8) ~[17753050174245037664.jar%23191!/:?] {re:classloading}
+		at TRANSFORMER/generated_694b1e7@1/com.tsuyumori.honig.universal.HonigMod.initClient(HonigMod.java:19) ~[17753050174245037664.jar%23191!/:?] {re:classloading}
+		at TRANSFORMER/honig@1.0.0/com.tsuyumori.honig.client.neo.HonigClientNeo.<init>(HonigClientNeo.java:13) ~[%23188!/:?] {re:classloading}
+		at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?] {}
+		at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?] {}
+		at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?] {}
+		at MC-BOOTSTRAP/fml_loader@4.0.38/net.neoforged.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:115) ~[loader-4.0.38.jar%2397!/:4.0] {}
+		at MC-BOOTSTRAP/fml_loader@4.0.38/net.neoforged.fml.ModLoader.lambda$constructMods$3(ModLoader.java:153) ~[loader-4.0.38.jar%2397!/:4.0] {}
+		at MC-BOOTSTRAP/fml_loader@4.0.38/net.neoforged.fml.ModLoader.lambda$dispatchParallelTask$7(ModLoader.java:231) ~[loader-4.0.38.jar%2397!/:4.0] {}
+		at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934) ~[?:?] {}
+		at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911) ~[?:?] {}
+		at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483) ~[?:?] {}
+		at java.base/java.util.concurrent.ForkJoinTask.doExec$$$capture(ForkJoinTask.java:507) ~[?:?] {}
+		at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java) ~[?:?] {}
+		at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1491) ~[?:?] {}
+		at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:2073) ~[?:?] {re:computing_frames}
+		at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2035) ~[?:?] {re:computing_frames}
+		at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187) ~[?:?] {}
+
+	Mod file: /Users/tsuyumori/Desktop/Developer/Minecraft/Honig/neoforge/build/resources/main/
+	Failure message: Honig (honig) has failed to load correctly
+		java.lang.NoClassDefFoundError: net/irisshaders/iris/layer/BlockEntityRenderStateShard
+	Mod version: 1.0.0
+	Mod issues URL: <No issues URL found>
+	Exception message: java.lang.ClassNotFoundException: net.irisshaders.iris.layer.BlockEntityRenderStateShard
+Stacktrace:
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[?:?] {}
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?] {}
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:216) ~[securejarhandler-3.0.8.jar:?] {}
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?] {}
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:216) ~[securejarhandler-3.0.8.jar:?] {}
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?] {}
+	at TRANSFORMER/generated_694b1e7@1/com.tsuyumori.honig.tests.HonigTestsClient.init(HonigTestsClient.java:8) ~[17753050174245037664.jar%23191!/:?] {re:classloading}
+	at TRANSFORMER/generated_694b1e7@1/com.tsuyumori.honig.universal.HonigMod.initClient(HonigMod.java:19) ~[17753050174245037664.jar%23191!/:?] {re:classloading}
+	at TRANSFORMER/honig@1.0.0/com.tsuyumori.honig.client.neo.HonigClientNeo.<init>(HonigClientNeo.java:13) ~[%23188!/:?] {re:classloading}
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?] {}
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?] {}
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.38/net.neoforged.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:115) ~[loader-4.0.38.jar%2397!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.38/net.neoforged.fml.ModLoader.lambda$constructMods$3(ModLoader.java:153) ~[loader-4.0.38.jar%2397!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.38/net.neoforged.fml.ModLoader.lambda$dispatchParallelTask$7(ModLoader.java:231) ~[loader-4.0.38.jar%2397!/:4.0] {}
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934) ~[?:?] {}
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911) ~[?:?] {}
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483) ~[?:?] {}
+	at java.base/java.util.concurrent.ForkJoinTask.doExec$$$capture(ForkJoinTask.java:507) ~[?:?] {}
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java) ~[?:?] {}
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1491) ~[?:?] {}
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:2073) ~[?:?] {re:computing_frames}
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2035) ~[?:?] {re:computing_frames}
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187) ~[?:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.1
+	Minecraft Version ID: 1.21.1
+	Operating System: Mac OS X (aarch64) version 15.5
+	Java Version: 21.0.6, JetBrains s.r.o.
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), JetBrains s.r.o.
+	Memory: 1420563064 bytes (1354 MiB) / 2239758336 bytes (2136 MiB) up to 12884901888 bytes (12288 MiB)
+	CPUs: 14
+	Processor Vendor: Apple Inc.
+	Processor Name: Apple M4 Pro
+	Identifier: Apple Inc. Family 0x1b588bb3 Model 0 Stepping 0
+	Microarchitecture: ARM64 SoC: Firestorm + Icestorm
+	Frequency (GHz): 0.00
+	Number of physical packages: 1
+	Number of physical CPUs: 14
+	Number of logical CPUs: 14
+	Graphics card #0 name: Apple M4 Pro
+	Graphics card #0 vendor: Apple (0x106b)
+	Graphics card #0 VRAM (MiB): 0.00
+	Graphics card #0 deviceId: unknown
+	Graphics card #0 versionInfo: unknown
+	Memory slot #0 capacity (MiB): 0.00
+	Memory slot #0 clockSpeed (GHz): 0.00
+	Memory slot #0 type: unknown
+	Virtual memory max (MiB): 49152.00
+	Virtual memory used (MiB): 26832.08
+	Swap memory total (MiB): 0.00
+	Swap memory used (MiB): 0.00
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 1760885.75, total: 1902788.38
+	Space in storage for workdir (MiB): available: 1760885.75, total: 1902788.38
+	JVM Flags: 0 total; 
+	ModLauncher: 11.0.4+main.d2e20e43
+	ModLauncher launch target: forgeclientuserdev
+	ModLauncher services: 
+		sponge-mixin-0.15.2+mixin.0.8.7.jar mixin PLUGINSERVICE 
+		loader-4.0.38.jar slf4jfixer PLUGINSERVICE 
+		loader-4.0.38.jar runtime_enum_extender PLUGINSERVICE 
+		unprotect-1.2.0.jar unprotect PLUGINSERVICE 
+		at-modlauncher-10.0.1.jar accesstransformer PLUGINSERVICE 
+		loader-4.0.38.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-11.0.4.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-11.0.4.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		javafml@4.0
+		lowcodefml@4.0
+		minecraft@4.0
+	Mod List: 
+		architectury-neoforge-13.0.8.jar                  |Architectury                  |architectury                  |13.0.8              |Manifest: NOSIGNATURE
+		17753050174245037664.jar                          |generated_694b1e7             |generated_694b1e7             |1                   |Manifest: NOSIGNATURE
+		main                                              |Honig                         |honig                         |1.0.0               |Manifest: NOSIGNATURE
+		neoforge-21.1.145-minecraft-merged-c32638ca2f-1.21|Minecraft                     |minecraft                     |1.21.1              |Manifest: NOSIGNATURE
+		neoforge-21.1.145-minecraft-merged-c32638ca2f-1.21|NeoForge                      |neoforge                      |21.1.145            |Manifest: NOSIGNATURE
+	Crash Report UUID: 23412f24-791c-465e-83aa-5df6140c02fe
+	FML: 4.0.38
+	NeoForge: 21.1.145

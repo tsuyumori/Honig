@@ -1,0 +1,16 @@
+architectury {
+    common rootProject.enabled_platforms.split(',')
+}
+
+loom {
+    accessWidenerPath = file("src/main/resources/honig.accesswidener")
+}
+
+dependencies {
+    modImplementation "net.fabricmc:fabric-loader:$rootProject.fabric_loader_version"
+    modImplementation "maven.modrinth:sodium:mc1.21.1-0.6.13-fabric"
+    modImplementation "maven.modrinth:iris:1.8.8+1.21.1-fabric"
+
+    modApi "dev.architectury:architectury:13.0.8"
+    implementation(annotationProcessor("com.github.bawnorton.mixinsquared:mixinsquared-common:0.3.2-beta.3"))
+}
